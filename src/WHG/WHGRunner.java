@@ -132,7 +132,7 @@ public class WHGRunner extends Application {
                 lfivePreM = false;
                 lfivePre = true;
             }
-            /*IMPORTANT! Mr. Kranz, if you would like to beat the game easily without dying,
+            /if you would like to beat the game easily without dying,
             just press Control Alt Shift E, and it will shut off collisions between the square and the ball.
             However, this comes with a cost. Your death count will be set to 1000. It's up to you if it's worth it.*/
             if (event.getCode() == KeyCode.E && event.isControlDown() && event.isShiftDown() && event.isAltDown()) {
